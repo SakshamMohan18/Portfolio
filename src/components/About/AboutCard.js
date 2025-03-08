@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am a Student of KIET Group of Institutions, Ghaziabad.
             <br />
-            I'm persuing my B.tech in Computer Science.
+            I'm pursuing my B.tech in Computer Science.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
