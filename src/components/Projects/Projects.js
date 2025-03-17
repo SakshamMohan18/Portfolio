@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import happy from "../../Assets/Projects/happy.png";
-import funkky from "../../Assets/Projects/funkky.png";
 import calfit from "../../Assets/Projects/calfit.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import major from "../../Assets/Projects/Major.png";
+import keshav from "../../Assets/Projects/keshav.png";
 
 function Projects() {
   return (
@@ -20,6 +20,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={keshav}
+              isBlog={false}
+              title="Catalogue Website for keshav Shoes"
+              description="Built a sleek catalogue website for Keshav Shoes using React.js + Vite and Tailwind CSS. It offers fast, responsive browsing of the latest shoe collections with clean navigation. Catalogue-only — customers can explore styles online and purchase in-store. Mastered Tailwind CSS for efficient development! 😎"
+              ghLink="https://github.com/SakshamMohan18/keshav-shoe"
+              demoLink="https://keshav-shoes.netlify.app"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={major}
@@ -38,17 +50,6 @@ function Projects() {
               description="Calfit is a personalized meal planner that promotes healthier lifestyles by suggesting meals and tracking calories based on user input. Built with HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB, it delivers personalized, scalable meal plans."
               ghLink="https://github.com/SakshamMohan18"
               demoLink="https://www.linkedin.com/posts/saksham-mohan-452255265_mealplanner-calorietracker-healthtech-activity-7282053400534392832-KKBR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAED_oT4BFzoG_3xlemMncfe1D6PFmnltQR8"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={funkky}
-              isBlog={false}
-              title="Funkky"
-              description="Funkyy is a vibrant, static web page for an online shoe store, designed with HTML and CSS for a playful user experience. It ensures responsiveness, accessibility, and showcases creativity in front-end development and quirky design."
-              ghLink="https://github.com/SakshamMohan18/SakshamMohan18"
-              demoLink="https://www.linkedin.com/posts/saksham-mohan-452255265_webdevelopment-netflixclone-intership-activity-7116519223421497346-YEj7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAED_oT4BFzoG_3xlemMncfe1D6PFmnltQR8"              
             />
           </Col>
 
